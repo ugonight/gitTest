@@ -10,6 +10,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	DrawPixel(320, 240, GetColor(255, 255, 255));	// 点を打つ
 
+	int Cr = GetColor(255, 255, 255);    // 白色の値を取得
+
+	DrawLine(0, 0, 640, 480, Cr);    // 線を描画
+
 	WaitKey();				// キー入力待ち
 
 	DxLib_End();				// ＤＸライブラリ使用の終了処理

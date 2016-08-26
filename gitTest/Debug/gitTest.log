@@ -1,0 +1,5 @@
+﻿cl : コマンド ライン warning D9025: '/D_UNICODE' より '/U_UNICODE' が優先されます。
+cl : コマンド ライン warning D9025: '/DUNICODE' より '/UUNICODE' が優先されます。
+  Source.cpp
+  gitTest.vcxproj -> C:\Users\ugonight\Documents\Visual Studio 2015\Projects\test\gitTest\Debug\gitTest.exe
+  gitTest.vcxproj -> C:\Users\ugonight\Documents\Visual Studio 2015\Projects\test\gitTest\Debug\gitTest.pdb (Full PDB)
